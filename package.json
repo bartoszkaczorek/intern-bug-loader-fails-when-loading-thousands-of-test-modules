@@ -1,0 +1,19 @@
+{
+  "name": "intern-bug-loader-fails-when-loading-thousands-of-test-modules",
+  "version": "1.0.0",
+  "description": "Intern runner crashes when executing large number of tests on chrome",
+  "author": "Bartosz Kaczorek",
+  "private": true,
+  "scripts": {
+    "pretest": "node test/support/prepare.js",
+    "test": "node_modules/.bin/intern-runner config=test/config/intern.js"
+  },
+  "dependencies": {
+    "fs-extra": "^0.23.1",
+    "glob": "^5.0.14",
+    "intern": "^3.0.0",
+    "mkpath": "^0.1.0",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.2.0"
+  }
+}
