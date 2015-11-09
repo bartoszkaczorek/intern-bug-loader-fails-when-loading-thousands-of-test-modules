@@ -19,7 +19,9 @@ Installation & Running
 		cd intern-bug-loader-fails-when-loading-thousands-of-test-modules
 		npm install
 
-	3. Start selenium standalone server on port 4444
+	3. Start selenium standalone server (with chromedriver) on port 4444:
+
+		npm run start-selenium
 	
 	4. Run tests:
 		
