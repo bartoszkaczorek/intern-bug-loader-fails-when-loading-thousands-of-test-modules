@@ -7,7 +7,7 @@
   "scripts": {
     "pretest": "node test/support/prepare.js",
     "test": "node_modules/.bin/intern-runner config=test/config/intern.js",
-    "start-selenium": "java -jar 3rdParty/selenium-server-standalone/selenium-standalone-server-2.48.2.jar -Dwebdriver.chrome.driver=3rdParty/chromedriver-2.20/chromedriver.exe"
+    "start-selenium": "java -jar 3rdParty/selenium-server-standalone/selenium-server-standalone-2.48.2.jar -Dwebdriver.chrome.driver=3rdParty/chromedriver-2.20/chromedriver.exe"
   },
   "dependencies": {
     "fs-extra": "^0.23.1",
