@@ -14,7 +14,7 @@ Installation & Running
 		
 		git clone https://github.com/bartoszkaczorek/intern-bug-loader-fails-when-loading-thousands-of-test-modules.git
 	
-	2. Install npm modules:
+	2. Install dependencies:
 		
 		cd intern-bug-loader-fails-when-loading-thousands-of-test-modules
 		npm install
