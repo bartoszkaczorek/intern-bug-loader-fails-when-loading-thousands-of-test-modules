@@ -6,13 +6,15 @@
   "private": true,
   "scripts": {
     "pretest": "node test/support/prepare.js",
-    "test": "node_modules/.bin/intern-runner config=test/config/intern.js"
+    "test": "node_modules/.bin/intern-runner config=test/config/intern.js",
+    "start-selenium": "java -jar 3rdParty/selenium-server-standalone/selenium-standalone-server-2.48.2.jar -Dwebdriver.chrome.driver=3rdParty/chromedriver-2.20/chromedriver.exe"
   },
   "dependencies": {
     "fs-extra": "^0.23.1",
     "glob": "^5.0.14",
     "intern": "^3.0.0",
     "mkpath": "^0.1.0",
+    "selenium-server-standalone-jar": "^2.47.1",
     "underscore": "^1.8.3",
     "underscore.string": "^3.2.0"
   }
