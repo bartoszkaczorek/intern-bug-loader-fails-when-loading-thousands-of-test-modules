@@ -14,7 +14,6 @@
     "glob": "^5.0.14",
     "intern": "^3.0.0",
     "mkpath": "^0.1.0",
-    "selenium-server-standalone-jar": "^2.47.1",
     "underscore": "^1.8.3",
     "underscore.string": "^3.2.0"
   }
