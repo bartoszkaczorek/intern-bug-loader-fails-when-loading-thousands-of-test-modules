@@ -11,9 +11,9 @@ Installation & Running
 ----------------------
 
 1. Clone repository:  
-`git clone https://github.com/bartoszkaczorek/intern-bug-loader-fails-when-loading-thousands-of-test-modules.git`	
+`git clone https://github.com/bugs-intern/bug-intern-loader-fails-when-loading-thousands-of-test-modules.git`	
 2. Install dependencies:  
-`cd intern-bug-loader-fails-when-loading-thousands-of-test-modules`  
+`cd bug-intern-loader-fails-when-loading-thousands-of-test-modules`  
 `npm install`  
 3. Start selenium standalone server (with chromedriver) on port 4444:  
 `npm run start-selenium`	
